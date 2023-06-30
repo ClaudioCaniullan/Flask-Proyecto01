@@ -38,3 +38,12 @@ class MainTest(TestCase):
 
         self.assert200(response)
 
+
+    def test_auth_login_get(self):
+        self.client.get(url_for('auth.login'))
+
+        self.assertTemplateUsed('login.html')
+
+
+
+
