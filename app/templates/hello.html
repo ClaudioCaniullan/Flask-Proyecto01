@@ -18,13 +18,6 @@
    <a href="{{ url_for('index') }}">Ir a inicio</a>
    {% endif %}
 
-   <div class="container">
-      <!--<form action="{{ url_for('hello')}}" method="POST">
-         {{ login_form.username }}
-         {{ login_form.label }}
-      </form>-->
-      {{ wtf.quick_form(login_form) }}
-   </div> 
 
    {% for todo in todo %}
       {{ macros.render_todo(todo) }}
