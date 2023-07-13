@@ -1,7 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-credentials = credentials,AplicationDefault()
+credential = credentials.ApplicationDefault()
 firebase_admin.initialize_app(credential)
 
 db = firestore.client()
