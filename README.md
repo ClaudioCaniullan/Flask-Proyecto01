@@ -10,21 +10,21 @@
 5. [FAQs](#faqs)
 
 ### Descripción general 
-***
+
 Aplicación CRUD (create, read, update, delete) que se encarga de registrar las tareas que realiza el usuario.
 
 ### Screenshot
 ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
 
 ## Tecnologías
-***
+
 A list of technologies used within the project:
 * [Technologie name](https://example.com): Version 12.3 
 * [Technologie name](https://example.com): Version 2.34
 * [Library name](https://example.com): Version 1234
 
 ## Instalación 
-***
+
 A little intro about the installation. 
 ```
 $ git clone https://example.com
@@ -35,7 +35,7 @@ $ npm start
 Side information: To use the application in a special environment use ```lorem ipsum``` to start
 
 ## Colaboración 
-***
+
 Give instructions on how to collaborate with your project.
 > Maybe you want to write a quote in this part. 
 > It should go over several rows?
@@ -43,7 +43,7 @@ Give instructions on how to collaborate with your project.
 
 
 ## FAQs
-***
+
 lista de preguntas frecuentes: 
 1. **Pregunta 1**
 Answer of the first question with _italic words_. 
@@ -56,7 +56,7 @@ To answer this question we use an unordered list:
 Answer of the third question with *italic words*.
 
 ## License
-***
+
 MIT
 
 
