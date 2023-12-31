@@ -1,3 +1,5 @@
+# Desde la terminal ejecutar: python main.py
+
 import unittest
 from flask import request, make_response, redirect, render_template, session, url_for, flash, get_flashed_messages
 from flask_login import login_required, current_user
@@ -50,7 +52,5 @@ def hello():
     return render_template('hello.html', **context)
 
 
-
-# Desde la terminal ejecutar: python main.py
 if __name__ == '__main__':
     app.run(port = 5000)
